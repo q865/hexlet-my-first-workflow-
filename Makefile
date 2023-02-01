@@ -1,5 +1,4 @@
 install: install-deps
-	npx simple-git-hooks
 
 say-hello: 
 	echo 'hello world'
