@@ -2,7 +2,7 @@ install: install-deps
 	npx simple-git-hooks
 
 say-hello: 
-	node index.js
+	echo 'hello world'
 
 git-ignore:
 	echo "/node_modules/\n*.log\ncoverage\nDS_Store" >> .gitignore 
