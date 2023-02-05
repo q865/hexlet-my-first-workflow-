@@ -1,8 +1,5 @@
 install: install-deps
 
-say-hello: 
-	echo 'hello world'
-
 git-ignore:
 	echo "/node_modules/\n*.log\ncoverage\nDS_Store" >> .gitignore 
 run:
@@ -19,6 +16,10 @@ test-coverage:
 
 lint:
 	npx eslint .
+
+say-hello: 
+	node index.js
+
 
 publish:
 	npm publish
