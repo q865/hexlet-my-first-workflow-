@@ -18,7 +18,7 @@ lint:
 	npx eslint .
 
 say-hello: 
-	node index.js
+	echo 'hello-world'
 
 
 publish:
